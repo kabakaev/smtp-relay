@@ -10,16 +10,11 @@ jobs:
   test:
     runs-on: ubuntu-latest
     steps:
-      - name: Login to DockerHub
-        uses: docker/login-action@v3
-        with:
-          username: ${{ secrets.DOCKERHUB_USERNAME }}
-          password: ${{ secrets.DOCKERHUB_TOKEN }}
-      - name: Build and push
+      - name: Build image
         id: docker_build
-        uses: docker/build-push-action@v5
+        uses: docker/build-push-action@f2a1d5e99d037542a71f64918e516c093c6f3fc4
         with:
           push: false
-          tags: djjudas21/smtp-relay:testing
+          tags: kabakaev/smtp-relay:testing
       - name: Image digest
         run: echo ${{ steps.docker_build.outputs.digest }}
