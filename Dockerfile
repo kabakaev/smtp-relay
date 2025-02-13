@@ -8,7 +8,8 @@ RUN apt update \
     && apt update \
     && DEBIAN_FRONTEND=noninteractive apt install -y \
     sasl-xoauth2 \
-    && apt-get clean
+    && apt-get clean \
+    && ln -sf /var/spool/postfix/etc/sasl-xoauth2.conf /etc/sasl-xoauth2.conf
 
 COPY smtp-relay.sh /
 
