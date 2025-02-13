@@ -1,0 +1,33 @@
+Types: deb
+URIs: https://ppa.launchpadcontent.net/sasl-xoauth2/stable/ubuntu/
+Suites: noble
+Components: main
+Signed-By:
+ -----BEGIN PGP PUBLIC KEY BLOCK-----
+ .
+ mQINBF1OCRYBEAC6yNoIsJznXe69lwCSkocvgYu5cPIVxaHhc+OSFWrgdZazYfB4
+ hEPHzoxI8amKmysJ0ki/BNB/2A5mf7b1gpEGDleOzqrMIpeCCBTQFBVhWsjLT8Rp
+ J328UUDIpZSs6TRsmQFdNQdqhicc+SbhaBK+NQNsTq/rO2dhMoVDIdkzXmixQhqF
+ 1DzMOXTGbqs8kKyfbESIs7l6vzI+WctsceW6Xl/YOfbIdTCWM1Zi0cSwyuojAGH6
+ YLwFeGdyiXKfMqwY9a/CHUhSsFarRxmZAv15TvgERbMirq6P02AGVDsqbn1EIDPz
+ 3+Er1bGfrdWVGn7qUpBLYAE3of5GwpmZiIo3Sj2iW6T4065tf6jOq31RO3FieQbZ
+ /Qmjz1ffY7niHkmg4TgnCTEbhKzwEZa0J6/+HIb0tGqgLVibjjHmbzl0Bh3gzzWb
+ KXK7Zb1ZVpaXsHBWBgAzEmGh0rj67qpFIHkVFbVJ0L7hYgknnpTciLDCtLiUrJZ5
+ KwxEni6ozj1MfpGvTiYKvyYgUZNGFQSFgiuB7BpJbcoTG6bv77TkI9GKlua4H1NZ
+ 2FSxGqFE0wiuzDp0dpiRZEx+xgX9hqNAo1Ph/M6FiT3bX/H8Q21SoVs+9cAGro09
+ T+66P8pr/1ytg/Egn/tEStH9NPJ/J2W+DXBuhoihxtvmRds9kq1EiQrB5QARAQAB
+ tClMYXVuY2hwYWQgUFBBIGZvciBzYXNsLXhvYXV0aDIgZGV2ZWxvcGVyc4kCOAQT
+ AQIAIgUCXU4JFgIbAwYLCQgHAwIGFQgCCQoLBBYCAwECHgECF4AACgkQLnM/AmAF
+ 95ESqRAApthVYcJEnSwJpPguhsQOgs1tPrgHiWqm2euip+VDRJ15zPSU68op1uOr
+ fJCZoZ1pRkhwlgKsdJzBQHU/eEBTwubBj85rzl9WEaiZrKhQEXQazuq6q0b8XXzr
+ wfHIE2GwnOg2N1PfWacsey5K0RUW9+64Q8G4J2BzrFJnRkBhzqiricKpycKSoBXi
+ xePaXrQGqd5494qpJSrxn13iQ484gAF8N81Y9GMHLdidI+wImTKeYe28LG2GZH/R
+ vhA9vCF/YZw+Ic880CS7Isf+bZ7B+CpzG0m/sjiyBMaxUZOSrimy4n4vTjBajTnr
+ OzhsH8WkHF3wgf9EtouEgSdAGoXUEl+ZbnqFByjNNw6/+5nTxoWZZY79HOxatFlN
+ DtyA5aDHsAYsqwzty2FGWkGZKQia8b1kYbg1CYJt3aaA6aAHihqy3bdqr99xV+UI
+ CCKC8lFODveg3/XHDjExz9kHxssj7efvk5HmJLbVODamld5i1oDwR+BhzEoGUiGe
+ LpOHPXsDwZ1WaQM+V3laugP/42OuNjUQUB22E5/5lKHaJvUft/1nVhGTyPmJlxl9
+ bVIxzwmgAaXqlptxgMEJG1FTmMxoqUzN9tAz6xI9PmXDsTT05wj8skMhGhgjoW/s
+ MJAF6NW1z1t0466qkZ+fmQvvZhr/C1cXhT5oyYUmruDo4JmxtKw=
+ =h3YZ
+ -----END PGP PUBLIC KEY BLOCK-----

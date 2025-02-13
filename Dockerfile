@@ -1,8 +1,14 @@
-FROM alpine:3.20
-LABEL maintainer "Jonathan Gazeley"
+FROM ubuntu:24.04
 
-RUN apk add --no-cache postfix \
-    && /usr/bin/newaliases
+COPY sasl-xoauth2-ubuntu-stable-noble.sources /etc/apt/sources.list.d/
+
+RUN apt update \
+    && DEBIAN_FRONTEND=noninteractive apt install -y \
+        postfix curl ca-certificates gettext-base python3 \
+    && apt update \
+    && DEBIAN_FRONTEND=noninteractive apt install -y \
+    sasl-xoauth2 \
+    && apt-get clean
 
 COPY smtp-relay.sh /
 
