@@ -4,7 +4,7 @@ COPY sasl-xoauth2-ubuntu-stable-noble.sources /etc/apt/sources.list.d/
 
 RUN apt update \
     && DEBIAN_FRONTEND=noninteractive apt install -y \
-        postfix curl ca-certificates gettext-base python3 \
+        postfix curl ca-certificates gettext-base python3 telnet \
     && apt update \
     && DEBIAN_FRONTEND=noninteractive apt install -y \
     sasl-xoauth2 \
